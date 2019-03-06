@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     >
+<ProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    android:progressTint="@color/colorAccent"
+    android:progress="10"
+    android:layout_margin="10dp"
+    android:id="@+id/progress"
+
+    />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sorag:1"
+    android:layout_alignParentStart="true"
+    android:textSize="20sp"
+    android:id="@+id/question_no"
+    />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Bal:"
+       android:layout_alignParentEnd="true"
+       android:textSize="20sp"
+       android:id="@+id/score"
+       />
+</RelativeLayout>
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#c5c5c8"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1"
+
+    android:textSize="40sp"
+    android:id="@+id/num1"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="+"
+        android:id="@+id/operator"
+        />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="40sp"
+         android:text="4"
+         android:id="@+id/num2"
+         />
+    </LinearLayout>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Jogabyny girizin.."
+    android:layout_margin="10dp"
+    android:id="@+id/answer"
+    android:inputType="number"
+    />
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Tassykla"
+     android:backgroundTint="#13e2de"
+     android:id="@+id/submit"
+     />
+
+
+</LinearLayout>
