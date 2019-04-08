@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewGameActivity"
-    android:orientation="vertical"
     android:background="#FFF"
     android:gravity="center"
-    >
+    android:orientation="vertical"
+    tools:context=".NewGameActivity">
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/sorag"
-        />
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/oyuna_bashla"
-    android:background="#0c9352"
-    android:textColor="#FFF"
-    android:padding="10dp"
-    android:layout_margin="10dp"
-    android:id="@+id/oyuna_bashla"
-    />
+        android:src="@drawable/sorag" />
+
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/oyuna_bashla"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#016e3a"
+        android:padding="10dp"
+        android:text="@string/oyuna_bashla"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/biz_barada"
+        android:background="#01b20a"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/biz_barada"
+        />
+
+    <Button
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/cykmak"
         android:background="#ae0113"
