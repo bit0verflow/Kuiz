@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
         var progress_=((currentPos)*100)/questions.size
         progress.progress=progress_
     }
-
+*/
     fun initQuestions(){
         //  engine.eval("${}+")
         //val res = engine.eval("x + 2")
@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
         questions.add(QuestionModel("7+4=?","11"))
         questions.add(QuestionModel("9+6=?","15"))
     }
-
+/*
     fun setData(){
 
         questionLabel.text=if(currentPos<questions.size){

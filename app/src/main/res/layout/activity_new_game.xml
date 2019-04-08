@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewGameActivity"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sorag"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/oyuna_bashla"
+    android:background="#0c9352"
+    android:textColor="#FFF"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:id="@+id/oyuna_bashla"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cykmak"
+        android:background="#ae0113"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/cykmak"
+        />
+</LinearLayout>

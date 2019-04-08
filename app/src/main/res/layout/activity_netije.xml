@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/netije"
+    android:gravity="center"
+    android:background="#FFF"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/netije_suraty"
+        android:src="@drawable/very_good_"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/netije_yazgysy"
+        android:text="Siziň dogry jogaplaryňyzyň sany"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dogrylar_sany"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TÄZEDEN"
+        android:layout_gravity="center"
+        android:id="@+id/taze_oyun"
+        android:textColor="#FFF"
+        android:layout_margin="10dp"
+        android:background="#0c9352"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cykmak"
+        android:text="Çykmak"
+        android:background="#ae0113"
+        android:textColor="#FFF"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
+
+
+</LinearLayout>
